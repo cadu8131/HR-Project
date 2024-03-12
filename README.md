@@ -151,7 +151,7 @@ Como sabemos, é comum existir disparidade salarial entre homens e mulheres nas 
     
 ### Entendendo os motivos da insatisfação dos funcionários
 
-<p align="justify" Vamos agora entender o motivo da insatisfação dos funcionários. A começar pelas viagens, algumas pessoas consideram um privilégio viajar consideravelmente a trabalho, mas na verdade isso pode ser um pesadelo, uma vez que a depender da viagem, isso faz com que o funcionário passe tempo longe da família e de toda sua rotina e vida pessoal, afastando assim os funcionários que viajam mais. Para comprovar esse ponto, considere o gráfico a seguir </p>
+<p align="justify" </p> Vamos agora entender o motivo da insatisfação dos funcionários. A começar pelas viagens, algumas pessoas consideram um privilégio viajar consideravelmente a trabalho, mas na verdade isso pode ser um pesadelo, uma vez que a depender da viagem, isso faz com que o funcionário passe tempo longe da família e de toda sua rotina e vida pessoal, afastando assim os funcionários que viajam mais. Para comprovar esse ponto, considere o gráfico a seguir </p>
     
 
 <!DOCTYPE html>
@@ -375,7 +375,7 @@ que significa que teremos que investir aproximadamente 14387,7 por funcionário 
 </body>
 </html>
 
-logo, utilizaremos um montante de 12689951,4 na moeda local (771.750 reais).
+logo, utilizaremos um montante de 12.689.951,4 na moeda local (771.750 reais).
 
 Com o montante visto acima, conseguimos:
 

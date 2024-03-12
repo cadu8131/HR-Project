@@ -18,7 +18,6 @@ Vamos entender inicialmente o perfil dos funcionários, a começar pela distribu
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Imagem</title>
 </head>
 <body>
     <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/1.png?raw=true" alt="Descrição da Imagem">

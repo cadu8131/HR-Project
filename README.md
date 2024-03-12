@@ -26,47 +26,214 @@ Vamos entender inicialmente o perfil dos funcionários, a começar pela distribu
 
 
 <p align="justify"> é notório que a distribuição da idade está centrada nos adultos entre 30 e 40 anos, isso se confirma pela média da idade das pessoas que se demitem ser menor que a média da idade das pessoas que continuam na empresa (respectivamente 33 e 37). Além disso, a empresa possui uma considerável quantidade a mais de homens que mulheres 
-![Logo](R\2.png) 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/2.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 
 Como sabemos, é comum existir disparidade salarial entre homens e mulheres nas empresas, acima de tudo, no mesmo cargo. Vamos investigar
 
-![Logo](Imagens\3.png) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/3.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-![Logo](Imagens\17.png) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/17.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-![Logo](Imagens\4.png) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/4.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-![Logo](Imagens\5.png) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/5.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 <p align="justify"> logo, podemos observar que existem cargos em que os homens costumam ganhar mais e também cargos em que as mulheres costumam ganhar mais. Como é possível ver, o aumento salarial das pessoas que possuem um maior nível de educação não é expressivo, como podemos ver abaixo
 
-![Logo](Imagens\6.png) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/6.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
 
 é notável que as pessoas que possuem mestrado (4) são as menos remuneradas na empresa, em média. É possível observar que o salário também não aumenta conforme o funcionario passa mais tempo na empresa, mesmo as que possuem performance acima da média
 
-![Logo](Imagens\7.png)
-![Logo](Imagens\8.png)
-![Logo](Imagens\9.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/7.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-por fim, vamos mostrar a correlação de Spearman entre as variáveis do problema
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/8.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-![Logo](Imagens\10.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/9n.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+<p align="justify"> as imagens acima mostram uma concentração dos funcionários na parte inferior do gráfico, indicando que recebem baixos salários e muitos ainda estão há um tempo considerável na empresa. Por fim, vamos mostrar a correlação de Spearman entre as variáveis do problema
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/10.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+<p align="justify"> essa correlação nos ajuda a entender a relação linear entre dois pares de variáveis. Elas podem mostrar dois (ou mais) novos pares de variáveis a serem estudadas. No entanto, temos uma pequena correlação entre boa parte das variáveis.
+    
 ### Entendendo os motivos da insatisfação dos funcionários
 
-<p align="justify"> Vamos agora entender o motivo da insatisfação dos funcionários. Para isso, faremos uso de alguns classificadores que a empresa costuma medir algumas coisas como: satisfação com o emprego, satisfação com o ambiente (físico) de trabalho, balanço entre vida pessoal e o trabalho e a performance.
+<p align="justify" Vamos agora entender o motivo da insatisfação dos funcionários. A começar pelas viagens, algumas pessoas consideram um privilégio viajar consideravelmente a trabalho, mas na verdade isso pode ser um pesadelo, uma vez que a depender da viagem, isso faz com que o funcionário passe tempo longe da família e de toda sua rotina e vida pessoal, afastando assim os funcionários que viajam mais. Para comprovar esse ponto, considere o gráfico a seguir </p>
+    
 
-![Logo](Imagens\11.png)
-![Logo](Imagens\16.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/28n.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+Vamos fazermos uso de alguns classificadores que a empresa costuma medir algumas coisas como: satisfação com o emprego, satisfação com o ambiente (físico) de trabalho, balanço entre vida pessoal e o trabalho e a performance.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/11.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/16.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 <p align="justify"> podemos ver que, pelo menos, entre 27,1% e 32,1% estão com um baixo balanço entre vida pessoal e o trabalho, independente da satisfação com o emprego. Isso se acentua nas pessoas que possuem maior satisfação no emprego. Além disso, é notório que pelo menos 37,2% dos funcionários não estão satisfeitos com o ambiente (físico) de trabalho.
 
 <p align="justify"> Precisamos também entender diretamente as pessoas que saíram da empresa. Esses dados podem nos fornecer insights valiosos pois estamos falando diretamente com as pessoas que fizeram o que estamos evitando que aconteça novamente
 
-![Logo](Imagens\12.png)
-![Logo](Imagens\13.png)
-![Logo](Imagens\14.png)
-![Logo](Imagens\15.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/12.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/13.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/14.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/15.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 <p align="justify"> Aqui nós temos um problema sério: das pessoas que saíram, aproximadamente metade não estavam muito satisfeitas com o trabalho e com o ambiente de trabalho. Além disso, aproximadamente 33% das pessoas que saíram da empresa não estavam envolvidas com o trabalho e 82.7% mostraram performance inferior.
 
@@ -92,32 +259,95 @@ Para resolver o problema, podemos inserir algumas novas coisas ao ambiente de tr
 
 <p align="justify"> Vamos agora falar de uma parte importante e um mais técnica. Como estamos lidando com um modelo de classificação (o nosso objetivo é prever a variável Attrition, isto é, se a pessoa se demitiu ou não) faremos uso de um modelo, o RandomForest com tunagem de parâmetros. Além disso, fizemos uso do IsolationForest para remoção dos Outliers.
 
-![Logo](Imagens\20.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/20.PNG?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 <p align="justify"> Dividiremos nosso dataset em treino, validação e teste, dessa forma conseguimos um bom treino, um conjunto de dados separado para validar se aqueles dados estão sendo bem treinados e não só "viciados" no padrão de dados em que treinaram e, por fim, dados para que testem a eficácia do modelo. Essa divisão foi feita de forma que 60% dos dados serão destinados ao treino, 20% validação e 20% de treino.
 
-![Logo](Imagens\18.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/18.PNG?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 <p align="justify"> Como estamos lidando com dados desbalanceados (uma quantidade muito maior de pessoas não saíram da empresa com relação as que saíram) precisamos calcular os pesos referentes a esses valores, pois assim, fica mais difícil do modelo se "viciar" em classificar uma pessoa aleatória sempre como "não"
 ![Logo](Imagens\19.png)
 
 <p align="justify"> agora, precisamos realizar as transformações nas variáveis numéricas e nas categóricas. Nas numéricas, aplicaremos SimpleImputer, para preencher dados vazios, StandardScaler para a padronização e normalização dos dados e o IsolationForest. Enquanto nas categóricas, o TargetEncoder, para separar as classes categóricas em 0 e 1 de maneira inteligente e também o SimpleImputer.
 
-![Logo](Imagens\22.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/22.PNG?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 <p align="justify"> e com isso terminamos o pré-processamento, que deve ser feito sempre depois da divisão em treino e teste. Afinal, não queremos "contaminar" os nossos dados de teste com informações dos dados de treino.
 
-![Logo](Imagens\23.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/23.PNG?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 <p align="justify"> No nosso modelo de Machine Learning, vamos tunar os parâmetros fazendo uso da Bayesian Search. Além disso, faremos uso da Cross Validation, para evitar os overfitting. Obtemos que os valores ótimos do parâmetro são: max_depth=20 e n_estimators=150.
 
-<p align="justify"> Podemos agora brincar um pouco com o threshold do algoritmo de seleção. Ele atualmente funciona assim: calcula-se a probabilidade de determinada pessoa, se ela for maior que 0.5 será classificado com 1 e se for menor, como 0. Podemos mexer nesse valor 0.5 para cima ou para baixo. Para entender o melhor valor, que maximizará o desempenho do nosso modelo, podemos fazer o seguinte estudo
+<p align="justify"> Podemos agora brincar um pouco com o threshold do algoritmo de seleção. Ele atualmente funciona assim: calcula-se a probabilidade de determinada pessoa, se ela for maior que 0,5 será classificado com 1 e se for menor, como 0. Podemos mexer nesse valor 0,5 para cima ou para baixo. Para entender o melhor valor, que maximizará o desempenho do nosso modelo, podemos fazer o seguinte estudo
 
-![Logo](Imagens\24.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/24.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-<p align="justify"> fixando em 0,4 obtemos a seguinte matriz de confusão alida a curva ROC AUC
+fixando em 0,4 obtemos a seguinte matriz de confusão alida a curva ROC AUC
 
-![Logo](Imagens\25.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/25.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
-![Logo](Imagens\26.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/26.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 <p align="justify"> analisando os resultados, dos 882 funcionários: 741 não sairão e nosso modelo conseguiu prever que não sairão, 120 pessoas sairão e nosso modelo também conseguiu prever isso, 21 pessoas sairão e nosso modelo não conseguiu prever. Por fim, 0 pessoas não sairão e nosso modelo conseguiu prever. O resultado disso é uma curva ROC com área 0,98, esse número reflete na facilidade do nosso modelo em classificar pessoas que sairão como "Yes" e pessoas que não sairão como "No".
 
@@ -134,7 +364,16 @@ no nosso caso:
 
 que significa que teremos que investir aproximadamente 14387,7 por funcionário para garantirmos que não teremos prejuízo.
 
-![Logo](Imagens\27.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/27.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
 
 logo, utilizaremos um montante de 12689951,4 na moeda local (771.750 reais).
 

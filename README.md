@@ -14,7 +14,7 @@ general_data: Essa é a maior tabela. Ela possui dados gerais a respeito dos fun
 
 Vamos entender inicialmente o perfil dos funcionários, a começar pela distribuição da idade
 ![Logo](R\1.png) 
-<p style="text-align: justify;"> é notório que a distribuição da idade está centrada nos adultos entre 30 e 40 anos, isso se confirma pela média da idade das pessoas que se demitem ser menor que a média da idade das pessoas que continuam na empresa (respectivamente 33 e 37). Além disso, a empresa possui uma considerável quantidade a mais de homens que mulheres 
+<p align="justify"> é notório que a distribuição da idade está centrada nos adultos entre 30 e 40 anos, isso se confirma pela média da idade das pessoas que se demitem ser menor que a média da idade das pessoas que continuam na empresa (respectivamente 33 e 37). Além disso, a empresa possui uma considerável quantidade a mais de homens que mulheres 
 ![Logo](R\2.png) 
 
 
@@ -28,7 +28,7 @@ Como sabemos, é comum existir disparidade salarial entre homens e mulheres nas 
 
 ![Logo](R\5.png) 
 
-<p style="text-align: justify;"> logo, podemos observar que existem cargos em que os homens costumam ganhar mais e também cargos em que as mulheres costumam ganhar mais. Como é possível ver, o aumento salarial das pessoas que possuem um maior nível de educação não é expressivo, como podemos ver abaixo
+<p align="justify"> logo, podemos observar que existem cargos em que os homens costumam ganhar mais e também cargos em que as mulheres costumam ganhar mais. Como é possível ver, o aumento salarial das pessoas que possuem um maior nível de educação não é expressivo, como podemos ver abaixo
 
 ![Logo](R\6.png) 
 
@@ -43,29 +43,29 @@ por fim, vamos mostrar a correlação de Spearman entre as variáveis do problem
 ![Logo](R\10.png)
 ### Entendendo os motivos da insatisfação dos funcionários
 
-<p style="text-align: justify;"> Vamos agora entender o motivo da insatisfação dos funcionários. Para isso, faremos uso de alguns classificadores que a empresa costuma medir algumas coisas como: satisfação com o emprego, satisfação com o ambiente (físico) de trabalho, balanço entre vida pessoal e o trabalho e a performance.
+<p align="justify"> Vamos agora entender o motivo da insatisfação dos funcionários. Para isso, faremos uso de alguns classificadores que a empresa costuma medir algumas coisas como: satisfação com o emprego, satisfação com o ambiente (físico) de trabalho, balanço entre vida pessoal e o trabalho e a performance.
 
 ![Logo](R\11.png)
 ![Logo](R\16.png)
 
-<p style="text-align: justify;"> podemos ver que, pelo menos, entre 27,1% e 32,1% estão com um baixo balanço entre vida pessoal e o trabalho, independente da satisfação com o emprego. Isso se acentua nas pessoas que possuem maior satisfação no emprego. Além disso, é notório que pelo menos 37,2% dos funcionários não estão satisfeitos com o ambiente (físico) de trabalho.
+<p align="justify"> podemos ver que, pelo menos, entre 27,1% e 32,1% estão com um baixo balanço entre vida pessoal e o trabalho, independente da satisfação com o emprego. Isso se acentua nas pessoas que possuem maior satisfação no emprego. Além disso, é notório que pelo menos 37,2% dos funcionários não estão satisfeitos com o ambiente (físico) de trabalho.
 
-<p style="text-align: justify;"> Precisamos também entender diretamente as pessoas que saíram da empresa. Esses dados podem nos fornecer insights valiosos pois estamos falando diretamente com as pessoas que fizeram o que estamos evitando que aconteça novamente
+<p align="justify"> Precisamos também entender diretamente as pessoas que saíram da empresa. Esses dados podem nos fornecer insights valiosos pois estamos falando diretamente com as pessoas que fizeram o que estamos evitando que aconteça novamente
 
 ![Logo](R\12.png)
 ![Logo](R\13.png)
 ![Logo](R\14.png)
 ![Logo](R\15.png)
 
-<p style="text-align: justify;"> Aqui nós temos um problema sério: das pessoas que saíram, aproximadamente metade não estavam muito satisfeitas com o trabalho e com o ambiente de trabalho. Além disso, aproximadamente 33% das pessoas que saíram da empresa não estavam envolvidas com o trabalho e 82.7% mostraram performance inferior.
+<p align="justify"> Aqui nós temos um problema sério: das pessoas que saíram, aproximadamente metade não estavam muito satisfeitas com o trabalho e com o ambiente de trabalho. Além disso, aproximadamente 33% das pessoas que saíram da empresa não estavam envolvidas com o trabalho e 82.7% mostraram performance inferior.
 
-<p style="text-align: justify;"> Estamos trabalhando com dados de uma empresa em que um grande número de pessoas pede demissão e nosso objetivo inicialmente é descobrir as razões, dando insights baseados em análise de dados e estatística. É primordial o entendimento dos dados para que possamos tomar decisões a respeito, antes de fazer quaisquer providências para melhorar esse aspecto da empresa. A instituição é composta em sua maioria por homens e a idade que prevalece entre os funcionários é a média idade (entre 30 e 40 anos). A média salarial entre homens e mulheres é aproximadamente a mesma (com a dos homens sendo um pouco maior), além disso, em porcentagem, mais homem deixam a empresa que mulheres (diferença menor que 2%). </p>
+<p align="justify"> Estamos trabalhando com dados de uma empresa em que um grande número de pessoas pede demissão e nosso objetivo inicialmente é descobrir as razões, dando insights baseados em análise de dados e estatística. É primordial o entendimento dos dados para que possamos tomar decisões a respeito, antes de fazer quaisquer providências para melhorar esse aspecto da empresa. A instituição é composta em sua maioria por homens e a idade que prevalece entre os funcionários é a média idade (entre 30 e 40 anos). A média salarial entre homens e mulheres é aproximadamente a mesma (com a dos homens sendo um pouco maior), além disso, em porcentagem, mais homem deixam a empresa que mulheres (diferença menor que 2%). </p>
 
-<p style="text-align: justify;"> A empresa possui três departamentos: Human Resources, Sales e Research and Development, que são do menor para o maior, em termos de número de funcionários. Para os homens, a média salarial aumenta conforme o nível da educação também aumenta, mas decai bruscamente quando o homem possui doutorado. Já nas mulheres, acontece uma queda nas que possuem mestrado e um pico nas que possuem doutorado. Observando a média salarial das mulheres com mestrado e que deixaram a empresa, podemos notar que o salário é 10% menor que o dos homens, além de ser 11% menor que a média das mulheres na empresa. Isso pode indicar que as mulheres com mestrado estão deixando a empresa pela falta de valorização, visto que estão recebendo abaixo da média. </p>
+<p align="justify">> A empresa possui três departamentos: Human Resources, Sales e Research and Development, que são do menor para o maior, em termos de número de funcionários. Para os homens, a média salarial aumenta conforme o nível da educação também aumenta, mas decai bruscamente quando o homem possui doutorado. Já nas mulheres, acontece uma queda nas que possuem mestrado e um pico nas que possuem doutorado. Observando a média salarial das mulheres com mestrado e que deixaram a empresa, podemos notar que o salário é 10% menor que o dos homens, além de ser 11% menor que a média das mulheres na empresa. Isso pode indicar que as mulheres com mestrado estão deixando a empresa pela falta de valorização, visto que estão recebendo abaixo da média. </p>
 
-<p style="text-align: justify;"> Uma boa parte dos funcionários possui uma relação de mediana para boa com o trabalho. Observamos que mais da metade possui um bom envolvimento, bem como possuem um considerável balanço entre a vida e o trabalho. Não podemos ignorar que entre 25 e 30% dos funcionários não possuem um bom balanço na vida pessoal e com o trabalho e, essa mesma porcentagem, possuem um baixo envolvimento com o trabalho (falo das categorias 1 e 2), coisas que estão diretamente relacionadas. Além disso, entre 35 e 45% dos funcionários não estão tão satisfeitos com o ambiente de trabalho, o que é quase metade. Novas medidas devem ser tomadas de forma a deixar o ambiente melhor para os trabalhadores.
+<p align="justify"> Uma boa parte dos funcionários possui uma relação de mediana para boa com o trabalho. Observamos que mais da metade possui um bom envolvimento, bem como possuem um considerável balanço entre a vida e o trabalho. Não podemos ignorar que entre 25 e 30% dos funcionários não possuem um bom balanço na vida pessoal e com o trabalho e, essa mesma porcentagem, possuem um baixo envolvimento com o trabalho (falo das categorias 1 e 2), coisas que estão diretamente relacionadas. Além disso, entre 35 e 45% dos funcionários não estão tão satisfeitos com o ambiente de trabalho, o que é quase metade. Novas medidas devem ser tomadas de forma a deixar o ambiente melhor para os trabalhadores.
 
-<p style="text-align: justify;"> Além disso, das pessoas que saíram, 48% não estavam satisfeitas com o ambiente de trabalho 47,12% não gostavam do trabalho em si e 33% admitiram não estar envolvidas com o trabalho, sendo que 82.7% teve uma baixa performance. Está claro que precisamos focar na valorização dos profissionais, é necessário um aumento de salário para os profissionais mais bem qualificados, uma vez que a média salarial quase não aumenta com a qualificação. A falta de valorização profissional faz com que na primeira oportunidade, ele saíra da empresa em busca de algo melhor. Além disso, precisamos tornar o ambiente de trabalho mais propício para trabalhar, 48% das pessoas que saíram indicaram que não estavam gostando do ambiente de trabalho, o que é praticamente metade.
+<p align="justify"> Além disso, das pessoas que saíram, 48% não estavam satisfeitas com o ambiente de trabalho 47,12% não gostavam do trabalho em si e 33% admitiram não estar envolvidas com o trabalho, sendo que 82.7% teve uma baixa performance. Está claro que precisamos focar na valorização dos profissionais, é necessário um aumento de salário para os profissionais mais bem qualificados, uma vez que a média salarial quase não aumenta com a qualificação. A falta de valorização profissional faz com que na primeira oportunidade, ele saíra da empresa em busca de algo melhor. Além disso, precisamos tornar o ambiente de trabalho mais propício para trabalhar, 48% das pessoas que saíram indicaram que não estavam gostando do ambiente de trabalho, o que é praticamente metade.
 
 Para resolver o problema, podemos inserir algumas novas coisas ao ambiente de trabalho. Dentre elas:
 
@@ -79,42 +79,42 @@ Para resolver o problema, podemos inserir algumas novas coisas ao ambiente de tr
 
 # Modelo de Machine Learning
 
-<p style="text-align: justify;"> Vamos agora falar de uma parte importante e um mais técnica. Como estamos lidando com um modelo de classificação (o nosso objetivo é prever a variável Attrition, isto é, se a pessoa se demitiu ou não) faremos uso de um modelo, o RandomForest com tunagem de parâmetros. Além disso, fizemos uso do IsolationForest para remoção dos Outliers.
+<p align="justify"> Vamos agora falar de uma parte importante e um mais técnica. Como estamos lidando com um modelo de classificação (o nosso objetivo é prever a variável Attrition, isto é, se a pessoa se demitiu ou não) faremos uso de um modelo, o RandomForest com tunagem de parâmetros. Além disso, fizemos uso do IsolationForest para remoção dos Outliers.
 
 ![Logo](R\20.png)
-<p style="text-align: justify;"> Dividiremos nosso dataset em treino, validação e teste, dessa forma conseguimos um bom treino, um conjunto de dados separado para validar se aqueles dados estão sendo bem treinados e não só "viciados" no padrão de dados em que treinaram e, por fim, dados para que testem a eficácia do modelo. Essa divisão foi feita de forma que 60% dos dados serão destinados ao treino, 20% validação e 20% de treino.
+<p align="justify"> Dividiremos nosso dataset em treino, validação e teste, dessa forma conseguimos um bom treino, um conjunto de dados separado para validar se aqueles dados estão sendo bem treinados e não só "viciados" no padrão de dados em que treinaram e, por fim, dados para que testem a eficácia do modelo. Essa divisão foi feita de forma que 60% dos dados serão destinados ao treino, 20% validação e 20% de treino.
 
 ![Logo](R\18.png)
-<p style="text-align: justify;"> Como estamos lidando com dados desbalanceados (uma quantidade muito maior de pessoas não saíram da empresa com relação as que saíram) precisamos calcular os pesos referentes a esses valores, pois assim, fica mais difícil do modelo se "viciar" em classificar uma pessoa aleatória sempre como "não"
+<p align="justify"> Como estamos lidando com dados desbalanceados (uma quantidade muito maior de pessoas não saíram da empresa com relação as que saíram) precisamos calcular os pesos referentes a esses valores, pois assim, fica mais difícil do modelo se "viciar" em classificar uma pessoa aleatória sempre como "não"
 ![Logo](R\19.png)
 
-<p style="text-align: justify;"> agora, precisamos realizar as transformações nas variáveis numéricas e nas categóricas. Nas numéricas, aplicaremos SimpleImputer, para preencher dados vazios, StandardScaler para a padronização e normalização dos dados e o IsolationForest. Enquanto nas categóricas, o TargetEncoder, para separar as classes categóricas em 0 e 1 de maneira inteligente e também o SimpleImputer.
+<p align="justify"> agora, precisamos realizar as transformações nas variáveis numéricas e nas categóricas. Nas numéricas, aplicaremos SimpleImputer, para preencher dados vazios, StandardScaler para a padronização e normalização dos dados e o IsolationForest. Enquanto nas categóricas, o TargetEncoder, para separar as classes categóricas em 0 e 1 de maneira inteligente e também o SimpleImputer.
 
 ![Logo](R\22.png)
 
-<p style="text-align: justify;"> e com isso terminamos o pré-processamento, que deve ser feito sempre depois da divisão em treino e teste. Afinal, não queremos "contaminar" os nossos dados de teste com informações dos dados de treino.
+<p align="justify"> e com isso terminamos o pré-processamento, que deve ser feito sempre depois da divisão em treino e teste. Afinal, não queremos "contaminar" os nossos dados de teste com informações dos dados de treino.
 
 ![Logo](R\23.png)
 
-<p style="text-align: justify;"> No nosso modelo de Machine Learning, vamos tunar os parâmetros fazendo uso da Bayesian Search. Além disso, faremos uso da Cross Validation, para evitar os overfitting. Obtemos que os valores ótimos do parâmetro são: max_depth=20 e n_estimators=150.
+<p align="justify"> No nosso modelo de Machine Learning, vamos tunar os parâmetros fazendo uso da Bayesian Search. Além disso, faremos uso da Cross Validation, para evitar os overfitting. Obtemos que os valores ótimos do parâmetro são: max_depth=20 e n_estimators=150.
 
-<p style="text-align: justify;"> Podemos agora brincar um pouco com o threshold do algoritmo de seleção. Ele atualmente funciona assim: calcula-se a probabilidade de determinada pessoa, se ela for maior que 0.5 será classificado com 1 e se for menor, como 0. Podemos mexer nesse valor 0.5 para cima ou para baixo. Para entender o melhor valor, que maximizará o desempenho do nosso modelo, podemos fazer o seguinte estudo
+<p align="justify"> Podemos agora brincar um pouco com o threshold do algoritmo de seleção. Ele atualmente funciona assim: calcula-se a probabilidade de determinada pessoa, se ela for maior que 0.5 será classificado com 1 e se for menor, como 0. Podemos mexer nesse valor 0.5 para cima ou para baixo. Para entender o melhor valor, que maximizará o desempenho do nosso modelo, podemos fazer o seguinte estudo
 
 ![Logo](R\24.png)
 
-<p style="text-align: justify;"> fixando em 0,4 obtemos a seguinte matriz de confusão alida a curva ROC AUC
+<p align="justify"> fixando em 0,4 obtemos a seguinte matriz de confusão alida a curva ROC AUC
 
 ![Logo](R\25.png)
 
 ![Logo](R\26.png)
 
-<p style="text-align: justify;"> analisando os resultados, dos 882 funcionários: 741 não sairão e nosso modelo conseguiu prever que não sairão, 120 pessoas sairão e nosso modelo também conseguiu prever isso, 21 pessoas sairão e nosso modelo não conseguiu prever. Por fim, 0 pessoas não sairão e nosso modelo conseguiu prever. O resultado disso é uma curva ROC com área 0,98, esse número reflete na facilidade do nosso modelo em classificar pessoas que sairão como "Yes" e pessoas que não sairão como "No".
+<p align="justify"> analisando os resultados, dos 882 funcionários: 741 não sairão e nosso modelo conseguiu prever que não sairão, 120 pessoas sairão e nosso modelo também conseguiu prever isso, 21 pessoas sairão e nosso modelo não conseguiu prever. Por fim, 0 pessoas não sairão e nosso modelo conseguiu prever. O resultado disso é uma curva ROC com área 0,98, esse número reflete na facilidade do nosso modelo em classificar pessoas que sairão como "Yes" e pessoas que não sairão como "No".
 
 # TradeOff
 
-<p style="text-align: justify;"> Segundo a conclusão da nossa análise exploratória de dados, podemos aliar os dados do nosso modelo preditivo (Bayesian Search) para tentar buscar soluções visando melhorar as condições de trabalho e evitar demissões. Ressaltando alguns dados, fica claro que devemos investir em melhor condições de trabalho para que os funcionários consigam trabalhar. Dentre isso, oferecer uma melhor estrutura do ambiente de trabalho. Essa mudança na estrutura exigirá reformas e então mais gastos, mas o que se deve focar é em evitar a saída dos atuais funcionários e além, dos que ainda não entraram. Algumas pesquisas indicam que o custo de contratação de um funcionário está entre 1.5 e 2 vezes o salário do funcionário. Isso pois temos diversos fatos para levar em consideração, como custo do processo seletivo, recrutamento e treinamento. Logo, considerando o salário médio dos funcionários da empresa, podemos colocar que o custo sairia em torno de 90000 (na moeda local).
+<p align="justify"> Segundo a conclusão da nossa análise exploratória de dados, podemos aliar os dados do nosso modelo preditivo (Bayesian Search) para tentar buscar soluções visando melhorar as condições de trabalho e evitar demissões. Ressaltando alguns dados, fica claro que devemos investir em melhor condições de trabalho para que os funcionários consigam trabalhar. Dentre isso, oferecer uma melhor estrutura do ambiente de trabalho. Essa mudança na estrutura exigirá reformas e então mais gastos, mas o que se deve focar é em evitar a saída dos atuais funcionários e além, dos que ainda não entraram. Algumas pesquisas indicam que o custo de contratação de um funcionário está entre 1.5 e 2 vezes o salário do funcionário. Isso pois temos diversos fatos para levar em consideração, como custo do processo seletivo, recrutamento e treinamento. Logo, considerando o salário médio dos funcionários da empresa, podemos colocar que o custo sairia em torno de 90000 (na moeda local).
 
-<p style="text-align: justify;"> Vamos propor que o um curso de idiomas na escolha do funcionário custa 4000 da moeda local. Segundo nosso modelo, precisaremos comprar 882 (número de funcionários no dataset de teste) desses cursos. Será que é suficiente para evitar perdas na empresa? Bom, o balanço da empresa nesse processo é:
+<p align="justify"> Vamos propor que o um curso de idiomas na escolha do funcionário custa 4000 da moeda local. Segundo nosso modelo, precisaremos comprar 882 (número de funcionários no dataset de teste) desses cursos. Será que é suficiente para evitar perdas na empresa? Bom, o balanço da empresa nesse processo é:
 
     CUSTO*QUANTIDADE DE FUNCIONÁRIOS - CUSTO DE RECONTRATAÇÃO*FUNCIONÁRIOS QUE SAIRÃO
 no nosso caso:
@@ -135,12 +135,12 @@ Com o montante visto acima, conseguimos:
 - Considerar oferecer benefícios extras aos funcionários, como vales-alimentação, vales-refeição, plano de saúde subsidiado, auxílio-creche, vale-cultura, entre outros. Esses benefícios podem aumentar a satisfação e o engajamento dos colaboradores;
 - Promover programas de reconhecimento e incentivo: Implementar programas de reconhecimento e incentivo, como premiações, reconhecimento público de desempenho excepcional, bônus por metas alcançadas, entre outros.
 
-<p style="text-align: justify;"> Ao implementar essas iniciativas, é importante garantir que elas estejam alinhadas com a cultura organizacional e as necessidades específicas dos funcionários. Além disso, é fundamental monitorar e avaliar regularmente o impacto dessas iniciativas na satisfação dos funcionários e nos resultados do negócio.
+<p align="justify"> Ao implementar essas iniciativas, é importante garantir que elas estejam alinhadas com a cultura organizacional e as necessidades específicas dos funcionários. Além disso, é fundamental monitorar e avaliar regularmente o impacto dessas iniciativas na satisfação dos funcionários e nos resultados do negócio.
     
 =======
 # Uma solução para um problema de RH
 
-<p style="text-align: justify;"> Uma empresa indiana surge com a seguinte problemática: em média, 15% dos funcionários se demitem todos os anos. Isso quer dizer que projetos de atrasam, o nome da empresa no mercado fica em risco, com outros funcionários e com clientes, e além disso, gera um custo adicional com o processo de seleção de novos funcionários. Possuindo diversos dados dessa empresa, precisamos estudar a situação dos funcionários ao longo de um ano (que se demitiram e também os que ainda continuam) e analisar possíveis causas desses eventos. Além disso, iremos desenvolver um modelo de Machine Learning para realizar previsões e orientar os executivos dessa empresa, que nos contraram, a tomar as melhores decisões com finalidade de evitar esses pedidos de demissões excessivos.
+<p align="justify"> Uma empresa indiana surge com a seguinte problemática: em média, 15% dos funcionários se demitem todos os anos. Isso quer dizer que projetos de atrasam, o nome da empresa no mercado fica em risco, com outros funcionários e com clientes, e além disso, gera um custo adicional com o processo de seleção de novos funcionários. Possuindo diversos dados dessa empresa, precisamos estudar a situação dos funcionários ao longo de um ano (que se demitiram e também os que ainda continuam) e analisar possíveis causas desses eventos. Além disso, iremos desenvolver um modelo de Machine Learning para realizar previsões e orientar os executivos dessa empresa, que nos contraram, a tomar as melhores decisões com finalidade de evitar esses pedidos de demissões excessivos.
 
 Nosso dataset é composto por quatro tabelas, sendo elas:
 
@@ -153,7 +153,7 @@ general_data: Essa é a maior tabela. Ela possui dados gerais a respeito dos fun
 
 Vamos entender inicialmente o perfil dos funcionários, a começar pela distribuição da idade
 ![Logo](R\1.png) 
-<p style="text-align: justify;"> é notório que a distribuição da idade está centrada nos adultos entre 30 e 40 anos, isso se confirma pela média da idade das pessoas que se demitem ser menor que a média da idade das pessoas que continuam na empresa (respectivamente 33 e 37). Além disso, a empresa possui uma considerável quantidade a mais de homens que mulheres 
+<p align="justify"> é notório que a distribuição da idade está centrada nos adultos entre 30 e 40 anos, isso se confirma pela média da idade das pessoas que se demitem ser menor que a média da idade das pessoas que continuam na empresa (respectivamente 33 e 37). Além disso, a empresa possui uma considerável quantidade a mais de homens que mulheres 
 ![Logo](R\2.png) 
 
 
@@ -167,7 +167,7 @@ Como sabemos, é comum existir disparidade salarial entre homens e mulheres nas 
 
 ![Logo](R\5.png) 
 
-<p style="text-align: justify;"> logo, podemos observar que existem cargos em que os homens costumam ganhar mais e também cargos em que as mulheres costumam ganhar mais. Como é possível ver, o aumento salarial das pessoas que possuem um maior nível de educação não é expressivo, como podemos ver abaixo
+<p align="justify"> logo, podemos observar que existem cargos em que os homens costumam ganhar mais e também cargos em que as mulheres costumam ganhar mais. Como é possível ver, o aumento salarial das pessoas que possuem um maior nível de educação não é expressivo, como podemos ver abaixo
 
 ![Logo](R\6.png) 
 
@@ -182,29 +182,29 @@ por fim, vamos mostrar a correlação de Spearman entre as variáveis do problem
 ![Logo](R\10.png)
 ### Entendendo os motivos da insatisfação dos funcionários
 
-<p style="text-align: justify;"> Vamos agora entender o motivo da insatisfação dos funcionários. Para isso, faremos uso de alguns classificadores que a empresa costuma medir algumas coisas como: satisfação com o emprego, satisfação com o ambiente (físico) de trabalho, balanço entre vida pessoal e o trabalho e a performance.
+<p align="justify"> Vamos agora entender o motivo da insatisfação dos funcionários. Para isso, faremos uso de alguns classificadores que a empresa costuma medir algumas coisas como: satisfação com o emprego, satisfação com o ambiente (físico) de trabalho, balanço entre vida pessoal e o trabalho e a performance.
 
 ![Logo](R\11.png)
 ![Logo](R\16.png)
 
-<p style="text-align: justify;"> podemos ver que, pelo menos, entre 27,1% e 32,1% estão com um baixo balanço entre vida pessoal e o trabalho, independente da satisfação com o emprego. Isso se acentua nas pessoas que possuem maior satisfação no emprego. Além disso, é notório que pelo menos 37,2% dos funcionários não estão satisfeitos com o ambiente (físico) de trabalho.
+<p align="justify"> podemos ver que, pelo menos, entre 27,1% e 32,1% estão com um baixo balanço entre vida pessoal e o trabalho, independente da satisfação com o emprego. Isso se acentua nas pessoas que possuem maior satisfação no emprego. Além disso, é notório que pelo menos 37,2% dos funcionários não estão satisfeitos com o ambiente (físico) de trabalho.
 
-<p style="text-align: justify;"> Precisamos também entender diretamente as pessoas que saíram da empresa. Esses dados podem nos fornecer insights valiosos pois estamos falando diretamente com as pessoas que fizeram o que estamos evitando que aconteça novamente
+<p align="justify"> Precisamos também entender diretamente as pessoas que saíram da empresa. Esses dados podem nos fornecer insights valiosos pois estamos falando diretamente com as pessoas que fizeram o que estamos evitando que aconteça novamente
 
 ![Logo](R\12.png)
 ![Logo](R\13.png)
 ![Logo](R\14.png)
 ![Logo](R\15.png)
 
-<p style="text-align: justify;"> Aqui nós temos um problema sério: das pessoas que saíram, aproximadamente metade não estavam muito satisfeitas com o trabalho e com o ambiente de trabalho. Além disso, aproximadamente 33% das pessoas que saíram da empresa não estavam envolvidas com o trabalho e 82.7% mostraram performance inferior.
+<p align="justify"> Aqui nós temos um problema sério: das pessoas que saíram, aproximadamente metade não estavam muito satisfeitas com o trabalho e com o ambiente de trabalho. Além disso, aproximadamente 33% das pessoas que saíram da empresa não estavam envolvidas com o trabalho e 82.7% mostraram performance inferior.
 
-<p style="text-align: justify;"> Estamos trabalhando com dados de uma empresa em que um grande número de pessoas pede demissão e nosso objetivo inicialmente é descobrir as razões, dando insights baseados em análise de dados e estatística. É primordial o entendimento dos dados para que possamos tomar decisões a respeito, antes de fazer quaisquer providências para melhorar esse aspecto da empresa. A instituição é composta em sua maioria por homens e a idade que prevalece entre os funcionários é a média idade (entre 30 e 40 anos). A média salarial entre homens e mulheres é aproximadamente a mesma (com a dos homens sendo um pouco maior), além disso, em porcentagem, mais homem deixam a empresa que mulheres (diferença menor que 2%). </p>
+<p align="justify"> Estamos trabalhando com dados de uma empresa em que um grande número de pessoas pede demissão e nosso objetivo inicialmente é descobrir as razões, dando insights baseados em análise de dados e estatística. É primordial o entendimento dos dados para que possamos tomar decisões a respeito, antes de fazer quaisquer providências para melhorar esse aspecto da empresa. A instituição é composta em sua maioria por homens e a idade que prevalece entre os funcionários é a média idade (entre 30 e 40 anos). A média salarial entre homens e mulheres é aproximadamente a mesma (com a dos homens sendo um pouco maior), além disso, em porcentagem, mais homem deixam a empresa que mulheres (diferença menor que 2%). </p>
 
-<p style="text-align: justify;"> A empresa possui três departamentos: Human Resources, Sales e Research and Development, que são do menor para o maior, em termos de número de funcionários. Para os homens, a média salarial aumenta conforme o nível da educação também aumenta, mas decai bruscamente quando o homem possui doutorado. Já nas mulheres, acontece uma queda nas que possuem mestrado e um pico nas que possuem doutorado. Observando a média salarial das mulheres com mestrado e que deixaram a empresa, podemos notar que o salário é 10% menor que o dos homens, além de ser 11% menor que a média das mulheres na empresa. Isso pode indicar que as mulheres com mestrado estão deixando a empresa pela falta de valorização, visto que estão recebendo abaixo da média. </p>
+<p align="justify"> A empresa possui três departamentos: Human Resources, Sales e Research and Development, que são do menor para o maior, em termos de número de funcionários. Para os homens, a média salarial aumenta conforme o nível da educação também aumenta, mas decai bruscamente quando o homem possui doutorado. Já nas mulheres, acontece uma queda nas que possuem mestrado e um pico nas que possuem doutorado. Observando a média salarial das mulheres com mestrado e que deixaram a empresa, podemos notar que o salário é 10% menor que o dos homens, além de ser 11% menor que a média das mulheres na empresa. Isso pode indicar que as mulheres com mestrado estão deixando a empresa pela falta de valorização, visto que estão recebendo abaixo da média. </p>
 
-<p style="text-align: justify;"> Uma boa parte dos funcionários possui uma relação de mediana para boa com o trabalho. Observamos que mais da metade possui um bom envolvimento, bem como possuem um considerável balanço entre a vida e o trabalho. Não podemos ignorar que entre 25 e 30% dos funcionários não possuem um bom balanço na vida pessoal e com o trabalho e, essa mesma porcentagem, possuem um baixo envolvimento com o trabalho (falo das categorias 1 e 2), coisas que estão diretamente relacionadas. Além disso, entre 35 e 45% dos funcionários não estão tão satisfeitos com o ambiente de trabalho, o que é quase metade. Novas medidas devem ser tomadas de forma a deixar o ambiente melhor para os trabalhadores.
+<p align="justify"> Uma boa parte dos funcionários possui uma relação de mediana para boa com o trabalho. Observamos que mais da metade possui um bom envolvimento, bem como possuem um considerável balanço entre a vida e o trabalho. Não podemos ignorar que entre 25 e 30% dos funcionários não possuem um bom balanço na vida pessoal e com o trabalho e, essa mesma porcentagem, possuem um baixo envolvimento com o trabalho (falo das categorias 1 e 2), coisas que estão diretamente relacionadas. Além disso, entre 35 e 45% dos funcionários não estão tão satisfeitos com o ambiente de trabalho, o que é quase metade. Novas medidas devem ser tomadas de forma a deixar o ambiente melhor para os trabalhadores.
 
-<p style="text-align: justify;"> Além disso, das pessoas que saíram, 48% não estavam satisfeitas com o ambiente de trabalho 47,12% não gostavam do trabalho em si e 33% admitiram não estar envolvidas com o trabalho, sendo que 82.7% teve uma baixa performance. Está claro que precisamos focar na valorização dos profissionais, é necessário um aumento de salário para os profissionais mais bem qualificados, uma vez que a média salarial quase não aumenta com a qualificação. A falta de valorização profissional faz com que na primeira oportunidade, ele saíra da empresa em busca de algo melhor. Além disso, precisamos tornar o ambiente de trabalho mais propício para trabalhar, 48% das pessoas que saíram indicaram que não estavam gostando do ambiente de trabalho, o que é praticamente metade.
+<p align="justify"> Além disso, das pessoas que saíram, 48% não estavam satisfeitas com o ambiente de trabalho 47,12% não gostavam do trabalho em si e 33% admitiram não estar envolvidas com o trabalho, sendo que 82.7% teve uma baixa performance. Está claro que precisamos focar na valorização dos profissionais, é necessário um aumento de salário para os profissionais mais bem qualificados, uma vez que a média salarial quase não aumenta com a qualificação. A falta de valorização profissional faz com que na primeira oportunidade, ele saíra da empresa em busca de algo melhor. Além disso, precisamos tornar o ambiente de trabalho mais propício para trabalhar, 48% das pessoas que saíram indicaram que não estavam gostando do ambiente de trabalho, o que é praticamente metade.
 
 Para resolver o problema, podemos inserir algumas novas coisas ao ambiente de trabalho. Dentre elas:
 
@@ -218,42 +218,42 @@ Para resolver o problema, podemos inserir algumas novas coisas ao ambiente de tr
 
 # Modelo de Machine Learning
 
-<p style="text-align: justify;"> Vamos agora falar de uma parte importante e um mais técnica. Como estamos lidando com um modelo de classificação (o nosso objetivo é prever a variável Attrition, isto é, se a pessoa se demitiu ou não) faremos uso de um modelo, o RandomForest com tunagem de parâmetros. Além disso, fizemos uso do IsolationForest para remoção dos Outliers.
+<p align="justify"> Vamos agora falar de uma parte importante e um mais técnica. Como estamos lidando com um modelo de classificação (o nosso objetivo é prever a variável Attrition, isto é, se a pessoa se demitiu ou não) faremos uso de um modelo, o RandomForest com tunagem de parâmetros. Além disso, fizemos uso do IsolationForest para remoção dos Outliers.
 
 ![Logo](R\20.png)
-<p style="text-align: justify;"> Dividiremos nosso dataset em treino, validação e teste, dessa forma conseguimos um bom treino, um conjunto de dados separado para validar se aqueles dados estão sendo bem treinados e não só "viciados" no padrão de dados em que treinaram e, por fim, dados para que testem a eficácia do modelo. Essa divisão foi feita de forma que 60% dos dados serão destinados ao treino, 20% validação e 20% de treino.
+<p align="justify"> Dividiremos nosso dataset em treino, validação e teste, dessa forma conseguimos um bom treino, um conjunto de dados separado para validar se aqueles dados estão sendo bem treinados e não só "viciados" no padrão de dados em que treinaram e, por fim, dados para que testem a eficácia do modelo. Essa divisão foi feita de forma que 60% dos dados serão destinados ao treino, 20% validação e 20% de treino.
 
 ![Logo](R\18.png)
-<p style="text-align: justify;"> Como estamos lidando com dados desbalanceados (uma quantidade muito maior de pessoas não saíram da empresa com relação as que saíram) precisamos calcular os pesos referentes a esses valores, pois assim, fica mais difícil do modelo se "viciar" em classificar uma pessoa aleatória sempre como "não"
+<p align="justify"> Como estamos lidando com dados desbalanceados (uma quantidade muito maior de pessoas não saíram da empresa com relação as que saíram) precisamos calcular os pesos referentes a esses valores, pois assim, fica mais difícil do modelo se "viciar" em classificar uma pessoa aleatória sempre como "não"
 ![Logo](R\19.png)
 
-<p style="text-align: justify;"> agora, precisamos realizar as transformações nas variáveis numéricas e nas categóricas. Nas numéricas, aplicaremos SimpleImputer, para preencher dados vazios, StandardScaler para a padronização e normalização dos dados e o IsolationForest. Enquanto nas categóricas, o TargetEncoder, para separar as classes categóricas em 0 e 1 de maneira inteligente e também o SimpleImputer.
+<p align="justify"> agora, precisamos realizar as transformações nas variáveis numéricas e nas categóricas. Nas numéricas, aplicaremos SimpleImputer, para preencher dados vazios, StandardScaler para a padronização e normalização dos dados e o IsolationForest. Enquanto nas categóricas, o TargetEncoder, para separar as classes categóricas em 0 e 1 de maneira inteligente e também o SimpleImputer.
 
 ![Logo](R\22.png)
 
-<p style="text-align: justify;"> e com isso terminamos o pré-processamento, que deve ser feito sempre depois da divisão em treino e teste. Afinal, não queremos "contaminar" os nossos dados de teste com informações dos dados de treino.
+<p align="justify"> e com isso terminamos o pré-processamento, que deve ser feito sempre depois da divisão em treino e teste. Afinal, não queremos "contaminar" os nossos dados de teste com informações dos dados de treino.
 
 ![Logo](R\23.png)
 
-<p style="text-align: justify;"> No nosso modelo de Machine Learning, vamos tunar os parâmetros fazendo uso da Bayesian Search. Além disso, faremos uso da Cross Validation, para evitar os overfitting. Obtemos que os valores ótimos do parâmetro são: max_depth=20 e n_estimators=150.
+<p align="justify"> No nosso modelo de Machine Learning, vamos tunar os parâmetros fazendo uso da Bayesian Search. Além disso, faremos uso da Cross Validation, para evitar os overfitting. Obtemos que os valores ótimos do parâmetro são: max_depth=20 e n_estimators=150.
 
-<p style="text-align: justify;"> Podemos agora brincar um pouco com o threshold do algoritmo de seleção. Ele atualmente funciona assim: calcula-se a probabilidade de determinada pessoa, se ela for maior que 0.5 será classificado com 1 e se for menor, como 0. Podemos mexer nesse valor 0.5 para cima ou para baixo. Para entender o melhor valor, que maximizará o desempenho do nosso modelo, podemos fazer o seguinte estudo
+<p align="justify"> Podemos agora brincar um pouco com o threshold do algoritmo de seleção. Ele atualmente funciona assim: calcula-se a probabilidade de determinada pessoa, se ela for maior que 0.5 será classificado com 1 e se for menor, como 0. Podemos mexer nesse valor 0.5 para cima ou para baixo. Para entender o melhor valor, que maximizará o desempenho do nosso modelo, podemos fazer o seguinte estudo
 
 ![Logo](R\24.png)
 
-<p style="text-align: justify;"> fixando em 0,4 obtemos a seguinte matriz de confusão alida a curva ROC AUC
+<p align="justify"> fixando em 0,4 obtemos a seguinte matriz de confusão alida a curva ROC AUC
 
 ![Logo](R\25.png)
 
 ![Logo](R\26.png)
 
-<p style="text-align: justify;"> analisando os resultados, dos 882 funcionários: 741 não sairão e nosso modelo conseguiu prever que não sairão, 120 pessoas sairão e nosso modelo também conseguiu prever isso, 21 pessoas sairão e nosso modelo não conseguiu prever. Por fim, 0 pessoas não sairão e nosso modelo conseguiu prever. O resultado disso é uma curva ROC com área 0,98, esse número reflete na facilidade do nosso modelo em classificar pessoas que sairão como "Yes" e pessoas que não sairão como "No".
+<p align="justify"> analisando os resultados, dos 882 funcionários: 741 não sairão e nosso modelo conseguiu prever que não sairão, 120 pessoas sairão e nosso modelo também conseguiu prever isso, 21 pessoas sairão e nosso modelo não conseguiu prever. Por fim, 0 pessoas não sairão e nosso modelo conseguiu prever. O resultado disso é uma curva ROC com área 0,98, esse número reflete na facilidade do nosso modelo em classificar pessoas que sairão como "Yes" e pessoas que não sairão como "No".
 
 # TradeOff
 
-<p style="text-align: justify;"> Segundo a conclusão da nossa análise exploratória de dados, podemos aliar os dados do nosso modelo preditivo (Bayesian Search) para tentar buscar soluções visando melhorar as condições de trabalho e evitar demissões. Ressaltando alguns dados, fica claro que devemos investir em melhor condições de trabalho para que os funcionários consigam trabalhar. Dentre isso, oferecer uma melhor estrutura do ambiente de trabalho. Essa mudança na estrutura exigirá reformas e então mais gastos, mas o que se deve focar é em evitar a saída dos atuais funcionários e além, dos que ainda não entraram. Algumas pesquisas indicam que o custo de contratação de um funcionário está entre 1.5 e 2 vezes o salário do funcionário. Isso pois temos diversos fatos para levar em consideração, como custo do processo seletivo, recrutamento e treinamento. Logo, considerando o salário médio dos funcionários da empresa, podemos colocar que o custo sairia em torno de 90000 (na moeda local).
+<p align="justify"> Segundo a conclusão da nossa análise exploratória de dados, podemos aliar os dados do nosso modelo preditivo (Bayesian Search) para tentar buscar soluções visando melhorar as condições de trabalho e evitar demissões. Ressaltando alguns dados, fica claro que devemos investir em melhor condições de trabalho para que os funcionários consigam trabalhar. Dentre isso, oferecer uma melhor estrutura do ambiente de trabalho. Essa mudança na estrutura exigirá reformas e então mais gastos, mas o que se deve focar é em evitar a saída dos atuais funcionários e além, dos que ainda não entraram. Algumas pesquisas indicam que o custo de contratação de um funcionário está entre 1.5 e 2 vezes o salário do funcionário. Isso pois temos diversos fatos para levar em consideração, como custo do processo seletivo, recrutamento e treinamento. Logo, considerando o salário médio dos funcionários da empresa, podemos colocar que o custo sairia em torno de 90000 (na moeda local).
 
-<p style="text-align: justify;"> Vamos propor que o um curso de idiomas na escolha do funcionário custa 4000 da moeda local. Segundo nosso modelo, precisaremos comprar 882 (número de funcionários no dataset de teste) desses cursos. Será que é suficiente para evitar perdas na empresa? Bom, o balanço da empresa nesse processo é:
+<p align="justify"> Vamos propor que o um curso de idiomas na escolha do funcionário custa 4000 da moeda local. Segundo nosso modelo, precisaremos comprar 882 (número de funcionários no dataset de teste) desses cursos. Será que é suficiente para evitar perdas na empresa? Bom, o balanço da empresa nesse processo é:
 
     CUSTO*QUANTIDADE DE FUNCIONÁRIOS - CUSTO DE RECONTRATAÇÃO*FUNCIONÁRIOS QUE SAIRÃO
 no nosso caso:
@@ -274,7 +274,7 @@ Com o montante visto acima, conseguimos:
 - Considerar oferecer benefícios extras aos funcionários, como vales-alimentação, vales-refeição, plano de saúde subsidiado, auxílio-creche, vale-cultura, entre outros. Esses benefícios podem aumentar a satisfação e o engajamento dos colaboradores;
 - Promover programas de reconhecimento e incentivo: Implementar programas de reconhecimento e incentivo, como premiações, reconhecimento público de desempenho excepcional, bônus por metas alcançadas, entre outros.
 
-<p style="text-align: justify;"> Ao implementar essas iniciativas, é importante garantir que elas estejam alinhadas com a cultura organizacional e as necessidades específicas dos funcionários. Além disso, é fundamental monitorar e avaliar regularmente o impacto dessas iniciativas na satisfação dos funcionários e nos resultados do negócio.
+<p align="justify"> Ao implementar essas iniciativas, é importante garantir que elas estejam alinhadas com a cultura organizacional e as necessidades específicas dos funcionários. Além disso, é fundamental monitorar e avaliar regularmente o impacto dessas iniciativas na satisfação dos funcionários e nos resultados do negócio.
     
 >>>>>>> c2121358b457c81133f93916c5567152ab9a9f88
-<p style="text-align: justify;"> Vale ressaltar que essas medidas não são benéficas apenas para os funcionários que já estão na empresa, mas para desenvolver toda uma cultura de que a empresa é um bom ambiente de trabalhar, incentivando funcionários a darem bons feedbacks e atrair bons funcionários conforme o tempo passa. Por fim, essa estimativa foi feita em 1 ano dos funcionários num grupo de 882 deles. A empresa possui mais funcionários, o que significa valores maiores. </p>
+<p align="justify"> Vale ressaltar que essas medidas não são benéficas apenas para os funcionários que já estão na empresa, mas para desenvolver toda uma cultura de que a empresa é um bom ambiente de trabalhar, incentivando funcionários a darem bons feedbacks e atrair bons funcionários conforme o tempo passa. Por fim, essa estimativa foi feita em 1 ano dos funcionários num grupo de 882 deles. A empresa possui mais funcionários, o que significa valores maiores. </p>

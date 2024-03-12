@@ -12,7 +12,20 @@ general_data: Essa é a maior tabela. Ela possui dados gerais a respeito dos fun
 ### O perfil dos funcionários
 
 Vamos entender inicialmente o perfil dos funcionários, a começar pela distribuição da idade
-![Logo](Imagens\1.png) 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Imagem</title>
+</head>
+<body>
+    <img src="https://github.com/cadu8131/HR-Project/blob/main/Imagens/1.png?raw=true" alt="Descrição da Imagem">
+</body>
+</html>
+
+
 <p align="justify"> é notório que a distribuição da idade está centrada nos adultos entre 30 e 40 anos, isso se confirma pela média da idade das pessoas que se demitem ser menor que a média da idade das pessoas que continuam na empresa (respectivamente 33 e 37). Além disso, a empresa possui uma considerável quantidade a mais de homens que mulheres 
 ![Logo](R\2.png) 
 
